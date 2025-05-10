@@ -748,7 +748,7 @@ define Device/cudy_wr2100
   $(Device/dsa-migration)
   DEVICE_VENDOR := Cudy
   DEVICE_MODEL := WR2100
-  IMAGE_SIZE := 15872k
+  IMAGE_SIZE := 27328k
   UIMAGE_NAME := R11
   DEVICE_PACKAGES := kmod-mt7603 kmod-mt7615-firmware -uboot-envtools
 endef
